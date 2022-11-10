@@ -1,0 +1,20 @@
+.img1{
+    width: 100%;;
+}
+.tarjeta_producto{
+    background: $color-principal;
+    padding: 10px;
+    margin-block: 10px;
+    border-radius: 15px;
+    border: rgba(0, 0, 0, 0.445) solid 5px;
+    transition-duration: 0.75s;
+    
+}
+.tarjeta_producto:hover{
+    box-shadow: 0px 0px 50px 25px rgba(0,0,0,0.9);
+    transform: scale(1.1);
+}
+.card-title{
+    color: black;
+    text-decoration: underline;
+}

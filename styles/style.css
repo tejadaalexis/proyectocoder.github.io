@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700;800&family=Indie+Flower&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Indie Flower", cursive;
+  font-size: 1.5rem;
+}
+* ::selection {
+  background-color: aqua;
+  color: white;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.encabezado {
+  font-size: 1rem;
+  background: linear-gradient(160deg, rgb(243, 243, 247) 0%, rgb(120, 133, 245) 50%, rgb(3, 92, 245) 100%);
+  font-size: x-large;
+}
+.encabezado .dropdown-menu {
+  background: rgb(71, 117, 243);
+}
+.encabezado .logo {
+  width: 300px;
+}
+.encabezado .logo__texto {
+  text-align: center;
+  font-size: xxx-large;
+}
+
+.cuerpo {
+  background: linear-gradient(160deg, rgb(101, 235, 240) 15%, rgb(255, 255, 255) 50%, rgb(101, 235, 240) 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 30px;
+}
+.cuerpo .quienes {
+  text-align: center;
+  font-size: 2.5rem;
+  color: black;
+  text-decoration-line: underline;
+}
+.cuerpo .texto_index {
+  text-align: center;
+}
+
+.talles {
+  text-align: center;
+  font-size: 2.5rem;
+  color: black;
+  text-decoration-line: underline;
+}
+
+.tremeras {
+  width: 100%;
+  height: 1000px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.tpantalones {
+  width: 100%;
+  height: 1000px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.redes {
+  background: linear-gradient(160deg, rgb(243, 243, 247) 0%, rgb(120, 133, 245) 50%, rgb(3, 92, 245) 100%);
+}
+.redes .copyright {
+  font-size: 0.7rem;
+}
+
+.img1 {
+  width: 100%;
+}
+
+.tarjeta_producto {
+  background: linear-gradient(160deg, rgb(243, 243, 247) 0%, rgb(120, 133, 245) 50%, rgb(3, 92, 245) 100%);
+  padding: 10px;
+  margin-block: 10px;
+  border-radius: 15px;
+  border: rgba(0, 0, 0, 0.445) solid 5px;
+  transition-duration: 0.75s;
+}
+
+.tarjeta_producto:hover {
+  box-shadow: 0px 0px 50px 25px rgba(0, 0, 0, 0.9);
+  transform: scale(1.1);
+}
+
+.card-title {
+  color: black;
+  text-decoration: underline;
+}
+
+.contacto {
+  text-align: center;
+  font-size: 2.5rem;
+  color: black;
+  text-decoration-line: underline;
+}
+
+.buzos {
+  text-align: center;
+  font-size: 2.5rem;
+  color: black;
+  text-decoration-line: underline;
+}
+
+.camperas {
+  text-align: center;
+  font-size: 2.5rem;
+  color: black;
+  text-decoration-line: underline;
+}
+
+.pantalones {
+  text-align: center;
+  font-size: 2.5rem;
+  color: black;
+  text-decoration-line: underline;
+}
+
+.remeras {
+  text-align: center;
+  font-size: 2.5rem;
+  color: black;
+  text-decoration-line: underline;
+}
+
+/*# sourceMappingURL=style.css.map */
