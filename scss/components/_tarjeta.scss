@@ -1,7 +1,9 @@
 .img1{
-    width: 100%;;
+    width: 100px;
+    height: 150px;
 }
 .tarjeta_producto{
+    height: 150px;
     background: $color-principal;
     padding: 10px;
     margin-block: 10px;
@@ -17,4 +19,8 @@
 .card-title{
     color: black;
     text-decoration: underline;
+}
+.btn_tarjeta{
+    border-radius: 50%;
+    border-color: black;
 }

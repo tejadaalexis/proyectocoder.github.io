@@ -16,10 +16,9 @@
 
 <body>
     <header class="encabezado">
-        <div>
+        <div class="clogo">
             <img class="logo" src="../imagenes/icono.png" alt="CRIPP">
             <h1 class="logo__texto">CRIPP</h1>
-            <H4 class="logo__texto">Ropa Informal</H4>
         </div>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -29,7 +28,7 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="../index.html">Quienes Somos</a>
@@ -63,15 +62,16 @@
             <form class="formulario">
                 <div class="mb-3 ">
                     <label for="nombre" class="form-label">Nombre y Apellido:</label>
-                    <input class="form-control"type="text" placeholder="ej:Juan Perez" name="nombre" id="nombre" required>
+                    <input class="form-control" type="text" placeholder="ej:Juan Perez" name="nombre" id="nombre"
+                        required>
                 </div>
                 <div class="mb-3 ">
                     <label for="email" class="form-label">Email</label>
-                    <input class="form-control"type="email:" placeholder="example@gmail.com" id="email" required>
+                    <input class="form-control" type="email:" placeholder="example@gmail.com" id="email" required>
                 </div>
                 <div class="mb-3 ">
                     <label for="asuntos" class="form-label">Asunto: </label>
-                    <select class="form-control"name="asunto" id="asuntos" required>
+                    <select class="form-control" name="asunto" id="asuntos" required>
                         <option value="" disabled selected>seleccione</option>
                         <option value="sugerencia">Sugerencia</option>
                         <option value="consulta">Consulta</option>
@@ -80,7 +80,8 @@
                 </div>
                 <div class="mb-3 ">
                     <label for="consulta" class="form-label">Consulta</label>
-                    <textarea class="form-control" name="consultas" id="" cols="30" rows="5" id="consulta" required></textarea>
+                    <textarea class="form-control" name="consultas" id="" cols="30" rows="5" id="consulta"
+                        required></textarea>
                 </div>
                 <div class="col-auto">
                     <button type="submit" class="btn btn-outline-info mb-4">
@@ -90,23 +91,13 @@
             </form>
         </section>
     </main>
-    <footer class="bg-dark text-center text-black redes">
+    <footer class="text-center text-black redes">
         <div class="container p-4">
-
-            <!-- Section: Social media -->
-            <section class="mb-4">
-                <!-- Facebook -->
-                <a class="btn btn-floating m-1" style="color: #295ceb" href="https://www.facebook.com/" target="_blank" role="button"><i
-                        class="bi bi-facebook"></i></a>
-
-                <!-- Whatsapp -->
-                <a class="btn btn-floating m-1" style="color: #29df32" href="https://www.whatsapp.com/" target="_blank" role="button"><i
-                        class="bi bi-whatsapp"></i></a>
-
-                <!-- Instagram -->
-                <a class="btn btn-floating m-1" style="color: #ac2bac" href="https://www.instagram.com/" target="_blank" role="button"><i
-                        class="bi bi-instagram"></i></a>
-
+            <section class="iconos">
+                <a class="btn btn-floating m-1 whatsapp" style="color: #29df32" href="https://wa.me/c/5492613682487" target="_blank"
+                    role="button"><i class="bi bi-whatsapp"></i></a>
+                <a class="btn btn-floating m-1 instagram" style="color: #ac2bac" href="https://instagram.com/cripp.indumentaria?igshid=YmMyMTA2M2Y=" target="_blank"
+                    role="button"><i class="bi bi-instagram"></i></a>
             </section>
             <section class="">
                 <form action="">
@@ -118,7 +109,8 @@
                         </div>
                         <div class="col-md-5 col-12">
                             <div class="form-outline form-white mb-4">
-                                <input type="email" id="form5Example2" placeholder="example@gmail.com" class="form-control" />
+                                <input type="email" id="form5Example2" placeholder="example@gmail.com"
+                                    class="form-control" />
                                 <label class="form-label" for="form5Example2">Email</label>
                             </div>
                         </div>
@@ -132,7 +124,8 @@
             </section>
             <section class="mb-4">
                 <p class="copyright">
-                    @Copyright - 2022, TODOS LOS DERECHOS RESERVADOS.Está prohibida la reproducción total o parcial del contenido de esta pagina web, sin la expresa
+                    @Copyright - 2022, TODOS LOS DERECHOS RESERVADOS.Está prohibida la reproducción total o parcial del
+                    contenido de esta pagina web, sin la expresa
                     autorizacion de la administracion de la tienda virtual.
                     Provincia de Mendoza - Argentina
                 </p>

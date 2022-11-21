@@ -1,6 +1,37 @@
-.redes{
-    background: $color-principal; 
-    .copyright{
+.redes {
+    background: $color-principal;
+
+    .copyright {
         font-size: 0.7rem;
     }
+}
+.iconos {
+    margin: 30px;
+    size: 50px;
+}
+.instagram{
+    border: #bc2a8d;
+    border-radius: 50%;
+}
+.instagram:hover {
+    border: 5px solid #bc2a8d;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+    color: #bc2a8d;
+    text-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+}
+.whatsapp{
+    border: #4dc247;
+    border-radius: 50%;
+}
+.whatsapp:hover {
+    border: 5px solid #4dc247;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+    color: #4dc247;
+    text-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
 }
